@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@300&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*HEADER*/
+
+.navbar {
+    background: #111;
+}
+
+.navbar-brand {
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+}
+
+.nav-item {
+    margin-left: 17px;
+}
+
+/*SHOWCASE*/
+
+.showcase {
+    width: 100%;
+    height: 80vh;
+    background-color: #222;
+}
+
+.showcase-main_text {
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+    color: #fff;
+    margin-top: 8rem;
+}
+
+.showcase-secondary_text {
+    margin-top: 1.5rem;
+    font-size: 24px;
+    color: #fff;
+}
+
+.mafia-man {
+    width: 450px;
+    height: 450px;
+}
+
+/*ABOUT ME*/
+
+.about-me {
+    background: #111;
+    width: 100%;
+    height: 100vh;
+}
+
+.title {
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+}
+
+.photo {
+    width: 330px;
+    height: 330px;
+    border: solid 2px #fff;
+    border-radius: 50%;
+    margin-top: 4rem;
+}
+
+.about-me_preview {
+    color: #eee;
+    margin-top: 4rem;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.about-me_option {
+    background-color: #6E1F93;
+    padding: 1.5rem;
+    margin-top: 2.5rem;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 24px;
+}
+
+/*FOOTER*/
+
+.footer {
+    background: #222;
+
+}
+
+.social-media {
+    background-color: #6E1F93;
+    border-radius: 24px;
+    padding: 1.8rem 0;
+    transform: translateY(-5rem);
+}
+
+.footer .showcase-main_text {
+    margin: 0;
+    text-align: center;
+}
+
+.fa_icons {
+    display: flex;
+    justify-content: center;
+}
+
+.fab {
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+.fa-facebook {
+    margin: 0 3rem;
+}
+
+/*MEDIA QUERIES*/
+
+@media (max-width: 768px) {
+
+    /*SHOWCASE*/
+
+    .showcase {
+        height: 50vh;
+    }
+
+    .showcase-main_text {
+        margin-top: 3rem;
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .showcase-secondary_text {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .mafia-man {
+        visibility: hidden;
+    }
+
+    /*ABOUT ME*/
+
+    .about-me {
+        height: auto;
+    }
+
+    .photo {
+        display: block;
+        margin: 2rem auto;
+        width: 250px;
+        height: 250px;
+    }
+
+    .about-me_preview {
+        text-align: center;
+        margin-top: 1rem;
+        font-size: 20px;
+    }
+
+    .about-me_option {
+        margin-bottom: 5rem;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    /*FOOTER*/
+    .footer .container {
+        padding: 0;
+    }
+
+    .social-media {
+        transform: translateY(0);
+        width: 100%;
+        border-radius: 0;
+        padding: 3.5rem 0;
+    }
+
+    .social-media .showcase-main_text {
+        font-size: 30px;
+    }
+
+    .final {
+        padding-top: 3rem;
+        font-size: 22px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 995px) {
+
+    .showcase {
+        height: 40vh;
+    }
+
+    .showcase-main_text {
+        margin-top: 3rem;
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .showcase-secondary_text {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .mafia-man {
+        display: none;
+    }
+
+    .title {
+        margin-bottom: 2rem;
+    }
+
+    .photo {
+        width: 250px;
+        height: 250px;
+    }
+
+    .about-me_preview {
+        text-align: justify;
+    }
+
+    .about-me_option {
+        text-align: justify;
+    }
+
+    .footer .container {
+        max-width: 100%;
+    }
+
+    .social-media {
+        transform: translateY(0);
+        width: 100%;
+        border-radius: 0;
+        padding: 3.5rem 0;
+    }
+
+    .social-media .showcase-main_text {
+        font-size: 30px;
+    }
+
+    .final {
+        padding-top: 3rem;
+        font-size: 22px;
+    }
+}
