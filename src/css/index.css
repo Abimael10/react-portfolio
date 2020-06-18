@@ -83,11 +83,102 @@ body {
     border-radius: 24px;
 }
 
+/*PLACEHOLDER*/
+
+.placeholder {
+    width: 100%;
+    height: 40vh;
+    background: #222;
+}
+
+.page-name {
+    color: #eee;
+}
+
+.about-history {
+    background: #111;
+    width: 100%;
+    height: auto;
+}
+
+.my-history {
+    color: #eee;
+    line-height: 2rem;
+    padding-bottom: 10rem;
+}
+
+.imagen-1 {
+    width: 100%;
+    height: 400px;
+    border: 1px solid #eee;
+    border-radius: 10px;
+}
+
+.imagen-2 {
+    width: 100%;
+    height: 400px;
+    border: 1px solid #eee;
+    border-radius: 10px;
+}
+
+.dancer {
+    width: 100%;
+    height: 400px;
+    border: 1px solid #eee;
+    border-radius: 10px;
+}
+
+.group {
+    width: 100%;
+    height: 400px;
+    border: 1px solid #eee;
+    border-radius: 10px;
+}
+
+.photo-1 {
+    width: 100%;
+    height: 450px;
+    border: 1px solid #eee;
+    border-radius: 10px;
+}
+
+.fa-mailbulk {
+    font-size: 5rem;
+    color: #6E1F93;
+    margin: auto;
+}
+
+.resize {
+    height: auto;
+    padding-bottom: 8rem;
+}
+
+.oscuro {
+    background: #222;
+    color: #eee;
+}
+
+.project-ui {
+    width: 300px;
+    height: auto;
+}
+
+.bton {
+    background-color: #6E1F93;
+    color: #eee;
+    border: 0;
+    padding: 10px 14px;
+    border-radius: 10px;
+}
+
+.nah-hover:hover {
+    cursor: pointer;
+}
+
 /*FOOTER*/
 
 .footer {
     background: #222;
-
 }
 
 .social-media {

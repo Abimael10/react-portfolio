@@ -9,6 +9,8 @@ import {
   NavLink,
   Container
 } from 'reactstrap';
+import {Link } from 'react-router-dom';
+
 
 const NavBar = (props) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -16,30 +18,30 @@ const NavBar = (props) => {
   const toggle = () => setIsOpen(!isOpen);
 
   return (
-    <div>
-      <Navbar className="navbar" dark expand="md">
-        <Container>
-            <NavbarBrand href="#">Juan Santos</NavbarBrand>
-            <NavbarToggler onClick={toggle} />
-            <Collapse isOpen={isOpen} navbar>
-            <Nav className="ml-auto" navbar>
-                <NavItem>
-                    <NavLink href="#">Home</NavLink>
-                </NavItem>
-                <NavItem>
-                    <NavLink href="#">Projects</NavLink>
-                </NavItem>
-                <NavItem>
-                    <NavLink href="#">About</NavLink>
-                </NavItem>
-                <NavItem>
-                    <NavLink href="#">Contact</NavLink>
-                </NavItem>
-            </Nav>
-            </Collapse>
-        </Container>
-      </Navbar>
-    </div>
+      <div>
+        <Navbar className="navbar" dark expand="md">
+          <Container>
+              <NavbarBrand href="#">Juan Santos</NavbarBrand>
+              <NavbarToggler onClick={toggle} />
+              <Collapse isOpen={isOpen} navbar>
+              <Nav className="ml-auto" navbar>
+                  <NavItem>
+                      <Link to="/"><NavLink className="nah-hover">Home</NavLink></Link>
+                  </NavItem>
+                  <NavItem>
+                      <Link to="/projects"><NavLink className="nah-hover">Projects</NavLink></Link>
+                  </NavItem>
+                  <NavItem>
+                      <Link to="/about"><NavLink className="nah-hover">About</NavLink></Link>
+                  </NavItem>
+                  <NavItem>
+                      <Link to="/contact"><NavLink className="nah-hover">Contact</NavLink></Link>
+                  </NavItem>
+              </Nav>
+              </Collapse>
+          </Container>
+        </Navbar>
+      </div>
   );
 }
 
