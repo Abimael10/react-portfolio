@@ -1,42 +1,38 @@
 {
   "files": {
     "main.css": "/static/css/main.34a11eae.chunk.css",
-    "main.js": "/static/js/main.ef57dde2.chunk.js",
-    "main.js.map": "/static/js/main.ef57dde2.chunk.js.map",
+    "main.js": "/static/js/main.062ce4ae.chunk.js",
+    "main.js.map": "/static/js/main.062ce4ae.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.e5fc83a6.js",
     "runtime-main.js.map": "/static/js/runtime-main.e5fc83a6.js.map",
     "static/css/2.01618315.chunk.css": "/static/css/2.01618315.chunk.css",
-    "static/js/2.9f4682a3.chunk.js": "/static/js/2.9f4682a3.chunk.js",
-    "static/js/2.9f4682a3.chunk.js.map": "/static/js/2.9f4682a3.chunk.js.map",
+    "static/js/2.b6641edc.chunk.js": "/static/js/2.b6641edc.chunk.js",
+    "static/js/2.b6641edc.chunk.js.map": "/static/js/2.b6641edc.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.ed798bdd8d69601e6e6ee74d53034566.js": "/precache-manifest.ed798bdd8d69601e6e6ee74d53034566.js",
+    "precache-manifest.22bcf9042e189b9b52c847d17d7a1c49.js": "/precache-manifest.22bcf9042e189b9b52c847d17d7a1c49.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.01618315.chunk.css.map": "/static/css/2.01618315.chunk.css.map",
     "static/css/main.34a11eae.chunk.css.map": "/static/css/main.34a11eae.chunk.css.map",
-    "static/js/2.9f4682a3.chunk.js.LICENSE.txt": "/static/js/2.9f4682a3.chunk.js.LICENSE.txt",
+    "static/js/2.b6641edc.chunk.js.LICENSE.txt": "/static/js/2.b6641edc.chunk.js.LICENSE.txt",
     "static/media/bld-website.png": "/static/media/bld-website.8026850a.png",
-    "static/media/dancer.jpg": "/static/media/dancer.4287f297.jpg",
     "static/media/daniels.png": "/static/media/daniels.a6162f65.png",
     "static/media/domini.png": "/static/media/domini.3df30ded.png",
     "static/media/fiverr-elite.png": "/static/media/fiverr-elite.48aa4d10.png",
-    "static/media/group.jpg": "/static/media/group.0e4f158e.jpg",
     "static/media/listivo.png": "/static/media/listivo.93792c80.png",
     "static/media/mafia-man.png": "/static/media/mafia-man.58f2d8fe.png",
-    "static/media/medal.jpg": "/static/media/medal.d1931206.jpg",
     "static/media/photo.jpg": "/static/media/photo.29587c9d.jpg",
     "static/media/port-ui.png": "/static/media/port-ui.96cfc1ad.png",
     "static/media/project2.jpg": "/static/media/project2.bb2382f7.jpg",
     "static/media/project3.jpg": "/static/media/project3.5bbe71cb.jpg",
     "static/media/project4.jpg": "/static/media/project4.fe83f062.jpg",
     "static/media/project6.jpg": "/static/media/project6.7fbe52b9.jpg",
-    "static/media/project7.png": "/static/media/project7.c63c20e5.png",
-    "static/media/tae.jpg": "/static/media/tae.8a9a9154.jpg"
+    "static/media/project7.png": "/static/media/project7.c63c20e5.png"
   },
   "entrypoints": [
     "static/js/runtime-main.e5fc83a6.js",
     "static/css/2.01618315.chunk.css",
-    "static/js/2.9f4682a3.chunk.js",
+    "static/js/2.b6641edc.chunk.js",
     "static/css/main.34a11eae.chunk.css",
-    "static/js/main.ef57dde2.chunk.js"
+    "static/js/main.062ce4ae.chunk.js"
   ]
 }

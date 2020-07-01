@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "130613b07c68d2b137d7acfedd57a562",
+    "revision": "abd027d5bd69490344b44cfb24a8eeef",
     "url": "/index.html"
   },
   {
-    "revision": "b9db6584b59be1b25f98",
+    "revision": "97d31999383309325690",
     "url": "/static/css/2.01618315.chunk.css"
   },
   {
-    "revision": "16509f550dcddf02eaec",
+    "revision": "e1449174f3c9e9847bf5",
     "url": "/static/css/main.34a11eae.chunk.css"
   },
   {
-    "revision": "b9db6584b59be1b25f98",
-    "url": "/static/js/2.9f4682a3.chunk.js"
+    "revision": "97d31999383309325690",
+    "url": "/static/js/2.b6641edc.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/static/js/2.9f4682a3.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.b6641edc.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "16509f550dcddf02eaec",
-    "url": "/static/js/main.ef57dde2.chunk.js"
+    "revision": "e1449174f3c9e9847bf5",
+    "url": "/static/js/main.062ce4ae.chunk.js"
   },
   {
     "revision": "b4ba650b238755144e2a",
@@ -30,10 +30,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "8026850a47373f07d676074c3ff0dcf9",
     "url": "/static/media/bld-website.8026850a.png"
-  },
-  {
-    "revision": "4287f297f4914f34dc44b440db66a02a",
-    "url": "/static/media/dancer.4287f297.jpg"
   },
   {
     "revision": "a6162f65b5f304c008d3c4de426c75ca",
@@ -48,20 +44,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/fiverr-elite.48aa4d10.png"
   },
   {
-    "revision": "0e4f158e6154ff30e7986a6d614ee10d",
-    "url": "/static/media/group.0e4f158e.jpg"
-  },
-  {
     "revision": "93792c8083188efbe28e3b2ebd3ca312",
     "url": "/static/media/listivo.93792c80.png"
   },
   {
     "revision": "58f2d8fe8a49348acb8be1377f9f104f",
     "url": "/static/media/mafia-man.58f2d8fe.png"
-  },
-  {
-    "revision": "d193120667247a84e537821015b3b17c",
-    "url": "/static/media/medal.d1931206.jpg"
   },
   {
     "revision": "29587c9d0d76d5fed45badd27b560cca",
@@ -90,9 +78,5 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c63c20e5e68ef2fc61c2fd3f3a5d663d",
     "url": "/static/media/project7.c63c20e5.png"
-  },
-  {
-    "revision": "8a9a91545be3f5276e95817126507cc1",
-    "url": "/static/media/tae.8a9a9154.jpg"
   }
 ]);
