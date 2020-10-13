@@ -17,7 +17,7 @@ export default function App() {
           <Route path="/projects" component={Projects}/>
           <Route path="/about" component={About}/>
           <Route path="/contact" component={Contact}/>
-          <Route exact path="/react-portfolio" component={Home} />
+          <Route exact path="/" component={Home} />
         </Switch>
         <Footer/>
       </React.Fragment>

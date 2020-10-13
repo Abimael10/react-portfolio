@@ -16,12 +16,7 @@ const ContactInfo = () => {
                                 <CardTitle className="about-me_preview text-center">Juanabimael@gmail.com</CardTitle>
                             </Card>
                         </Col>
-                        <Col lg="4" md="4" sm="12">
-                            <Card className="oscuro mt-5">
-                                <FontAwesomeIcon className="fa-mailbulk pt-2" icon={faWhatsapp}/>
-                                <CardTitle className="about-me_preview text-center">+1 (829) 876-6206</CardTitle>
-                            </Card>
-                        </Col>
+                        
                         <Col lg="4" md="4" sm="12">
                             <Card className="oscuro mt-5">
                                 <FontAwesomeIcon className="fa-mailbulk pt-2" icon={faInstagram}/>

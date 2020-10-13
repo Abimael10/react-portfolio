@@ -3,6 +3,7 @@ import { Container, Row, Col, Card, CardImg, CardBody, CardTitle, Button } from 
 import Listivo from '../img/listivo.png'
 import PortUI from '../img/port-ui.png'
 import Domini from '../img/project7.png'
+import Daniels from '../img/proyectos/daniels.png'
 
 const Design = () => {
     return (
@@ -31,9 +32,19 @@ const Design = () => {
 
                     <Col lg="4" md="6" sm="12">
                         <Card body className="oscuro text-center">
-                            <CardImg top width="100%" height="auto" src={Domini} alt="Portfolio Project"/>
+                            <CardImg top width="100%" height="auto" src={Domini} alt="Rep. Dom Project"/>
                             <CardBody>
                                 <CardTitle className="text-center">Rep. Dom. Tribute - UI/UX Design</CardTitle>
+                                <Button className="m-auto bton">Details</Button>
+                            </CardBody>
+                        </Card>
+                    </Col>
+
+                    <Col lg="4" md="6" sm="12">
+                        <Card body className="oscuro text-center">
+                            <CardImg top width="100%" height="auto" src={Daniels} alt="Daniels Project"/>
+                            <CardBody>
+                                <CardTitle className="text-center">Jack Daniels - UI/UX Design</CardTitle>
                                 <Button className="m-auto bton">Details</Button>
                             </CardBody>
                         </Card>

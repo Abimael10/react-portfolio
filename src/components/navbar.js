@@ -21,12 +21,12 @@ const NavBar = (props) => {
       <div>
         <Navbar className="navbar" dark expand="md">
           <Container>
-              <NavbarBrand href="#">Juan Santos</NavbarBrand>
+              <Link to="/"><NavbarBrand>Juan Santos</NavbarBrand></Link>
               <NavbarToggler onClick={toggle} />
               <Collapse isOpen={isOpen} navbar>
               <Nav className="ml-auto" navbar>
                   <NavItem>
-                      <Link to="/react-portfolio"><NavLink className="nah-hover">Home</NavLink></Link>
+                      <Link to="/"><NavLink className="nah-hover">Home</NavLink></Link>
                   </NavItem>
                   <NavItem>
                       <Link to="/projects"><NavLink className="nah-hover">Projects</NavLink></Link>

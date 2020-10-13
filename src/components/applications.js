@@ -6,6 +6,8 @@ import Chatbot from '../img/proyectos/project4.jpg'
 import Elite from '../img/proyectos/fiverr-elite.png'
 import BLD from '../img/proyectos/bld-website.png'
 import Blog from '../img/proyectos/project6.jpg'
+import Dominic from '../img/proyectos/domini.png'
+import Agenda from '../img/proyectos/agenda.png'
 
 const Applications = () => {
     return (
@@ -68,6 +70,26 @@ const Applications = () => {
                         <CardBody>
                             <CardTitle className="text-center">Blog - Website Template</CardTitle>
                             <Button href="https://abimael10.github.io/Blog/" className="m-auto bton">Details</Button>
+                        </CardBody>
+                    </Card>
+                </Col>
+
+                <Col className="mb-4" lg="4" md="6" sm="12">
+                    <Card body className="oscuro text-center">
+                        <CardImg top width="100%" height="auto" src={Dominic} alt="Rep. Dominicana Project"/>
+                        <CardBody>
+                            <CardTitle className="text-center">Rep. Dominicana - Landing Page</CardTitle>
+                            <Button href="https://abimael10.github.io/dominican-landing/" className="m-auto bton">Details</Button>
+                        </CardBody>
+                    </Card>
+                </Col>
+
+                <Col className="mb-4" lg="4" md="6" sm="12">
+                    <Card body className="oscuro text-center">
+                        <CardImg top width="100%" height="auto" src={Agenda} alt="Agenda"/>
+                        <CardBody>
+                            <CardTitle className="text-center">Events App - Single-Page App</CardTitle>
+                            <Button href="https://abimael10.github.io/agenda/" className="m-auto bton">Details</Button>
                         </CardBody>
                     </Card>
                 </Col>
