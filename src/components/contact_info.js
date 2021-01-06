@@ -2,7 +2,7 @@ import React from 'react'
 import { Container, Row, Card, Col, CardTitle } from 'reactstrap'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faMailBulk} from '@fortawesome/free-solid-svg-icons'
-import {faWhatsapp, faInstagram} from '@fortawesome/free-brands-svg-icons'
+import {faInstagram} from '@fortawesome/free-brands-svg-icons'
 
 const ContactInfo = () => {
     return(

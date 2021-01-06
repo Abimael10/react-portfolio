@@ -12,7 +12,7 @@ const Description = () => {
 
                     <Row className="d-flex justify-content-center mt-5">
                         <Col lg="5" md="5" sm="12">
-                            <img className="photo-1" src={Photo}/>
+                            <img className="photo-1" src={Photo} alt="photo"/>
                         </Col>
                     </Row>
 

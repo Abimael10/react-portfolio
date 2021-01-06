@@ -8,7 +8,7 @@ import BLD from '../img/proyectos/bld-website.png'
 import Blog from '../img/proyectos/project6.jpg'
 import Dominic from '../img/proyectos/domini.png'
 import Agenda from '../img/proyectos/agenda.png'
-import MLfront from '../img/proyectos/ml-front'
+import MLfront from '../img/proyectos/ml-front.png'
 
 const Applications = () => {
     return (
